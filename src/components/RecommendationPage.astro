@@ -1,5 +1,6 @@
 ---
-import CodeBlock from "./CodeBlock.astro";
+import ContactUs from "./ContactUs.astro";
+// import CodeBlock from "./CodeBlock.astro";
 ---
 
 <div
@@ -8,29 +9,10 @@ import CodeBlock from "./CodeBlock.astro";
   <h1 class="text-2xl">This domain is for sale</h1>
   <div class="py-4"></div>
   <h2 class="text-xl font-light">Please send your offer</h2>
-  <div class="py-4"></div>
-  <form name="contact" method="POST" data-netlify="true">
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
-</div>
+  <div class="py-4">
+  <ContactUs />
 
-  <div class="pt-2"></div>
-  <CodeBlock />
-  <div class="absolute bottom-0 w-full flex justify-center p-4">
-    <a href="#why">...why?</a>
   </div>
-</div>
+
+
+ 
